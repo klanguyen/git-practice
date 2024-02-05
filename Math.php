@@ -24,9 +24,17 @@ class Math {
 		return $sum;
 	}
 
-    public static function division($num1, $num2){
+
+    public static function division($num1, $num2)
+    {
         $sum = $num1 / $num2;
-            return $sum;
+        return $sum;
+    }
+    public static function subtract($num1, $num2)
+        {
+            $difference = $num1 - $num2;
+            return $difference;
+
     }
 	
 }
