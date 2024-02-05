@@ -23,5 +23,10 @@ class Math {
 		$sum = $num1 + $num2;
 		return $sum;
 	}
+
+    public static function division($num1, $num2){
+        $sum = $num1 / $num2;
+            return $sum;
+    }
 	
 }
