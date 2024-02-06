@@ -24,12 +24,26 @@ class Math {
 		return $sum;
 	}
 
-
+    /**
+     * Returns the devision of two numbers
+     *
+     * @param float $a
+     * @param float $b
+     * @return float
+     */
     public static function division($num1, $num2)
     {
         $sum = $num1 / $num2;
         return $sum;
     }
+
+    /**
+     * Returns the subtraction of two numbers
+     *
+     * @param float $a
+     * @param float $b
+     * @return float
+     */
     public static function subtract($num1, $num2)
         {
             $difference = $num1 - $num2;
