@@ -50,6 +50,7 @@ class Math {
             return $difference;
 
     }
+
     /**
      * Returns the product of two numbers
      *
@@ -64,5 +65,12 @@ class Math {
     }
 
 
+
+
+    public static function modulo($num1, $num2){
+        $remainder = $num1 % $num2;
+        return $remainder;
+    }
+	
 
 }
