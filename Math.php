@@ -50,5 +50,9 @@ class Math {
             return $difference;
 
     }
+    public static function modulo($num1, $num2){
+        $remainder = $num1 % $num2;
+        return $remainder;
+    }
 	
 }
