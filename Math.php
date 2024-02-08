@@ -52,7 +52,7 @@ class Math {
     }
 
     /**
-     * Returns the product of two numbers
+     * Returns the multiplication of two numbers
      *
      * @param float $a
      * @param float $b
@@ -65,8 +65,13 @@ class Math {
     }
 
 
-
-
+    /**
+     * Returns the modulo of two numbers
+     *
+     * @param float $a
+     * @param float $b
+     * @return float
+     */
     public static function modulo($num1, $num2){
         $remainder = $num1 % $num2;
         return $remainder;
