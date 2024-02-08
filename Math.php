@@ -76,6 +76,12 @@ class Math {
         $remainder = $num1 % $num2;
         return $remainder;
     }
-	
+
+    public static function pimethod($num1, $num2){
+        $product = $num1 * $num2 * 3.14;
+        return $product;
+    }
+
+
 
 }
