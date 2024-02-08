@@ -50,5 +50,19 @@ class Math {
             return $difference;
 
     }
-	
+    /**
+     * Returns the product of two numbers
+     *
+     * @param float $a
+     * @param float $b
+     * @return float
+     */
+    public static function multiplication($num1, $num2)
+    {
+        $product = $num1 * $num2;
+        return $product;
+    }
+
+
+
 }
