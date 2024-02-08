@@ -78,22 +78,4 @@ class Math {
     }
 
 
-    public static function pimethod($num1, $num2){
-        $product = $num1 * $num2 * 3.14;
-        return $product;
-    }
-
-
-
-    public static function isEven($num1){
-        if ($num1 % 2 == 0){
-            return true;
-        }
-        else {
-            return false;
-        }
-    }
-	
-
-
 }
