@@ -76,6 +76,15 @@ class Math {
         $remainder = $num1 % $num2;
         return $remainder;
     }
+
+    public static function isEven($num1){
+        if ($num1 % 2 == 0){
+            return true;
+        }
+        else {
+            return false;
+        }
+    }
 	
 
 }
